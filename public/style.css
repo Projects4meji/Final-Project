@@ -1,0 +1,83 @@
+body{
+    background-color: #213555;
+    background-image: url("https://www.transparenttextures.com/patterns/carbon-fibre-v2.png");
+
+}
+
+p{
+    font-size: 25px;
+    color: #d4cfce;
+    font-weight: bold;
+}
+
+/* ul{
+    color: #d4cfce;
+    font-size: 2em;
+    font-family: 'EB Garamond', serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+} */
+
+button{
+  border-radius: 20px;
+}
+.input{
+    background: linear-gradient(300deg, #d4cfce, #64CCC5, #213555);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'EB Garamond', serif;
+    font-family: 'Open Sans', sans-serif;
+    animation: gradient-animation 8s ease infinite;
+}
+@keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+  nav {
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    top: 60px;
+    left: 0;
+    background-color: #F5E8C7;
+    padding-top: 20px;
+    color: #213555;
+  }
+
+  nav a {
+    display: block;
+    padding: 15px;
+    color:#213555;
+    text-decoration: none;
+    border-bottom: 1px solid #555;
+  }
+
+  nav a:hover {
+    background-color: #555;
+  }
+
+.field{
+    font-size: 15px;
+}
+.headings{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    z-index: -1;
+}
+.list{
+    display: inline-block;
+    background-color: #64CCC5;
+    border: 1px solid #9AD0C2;
+}
+
+
